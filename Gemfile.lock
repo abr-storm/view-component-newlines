@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/ViewComponent/view_component.git
+  revision: 0f953d95b43abdb48dccdac7f6afb157bb8773f6
+  branch: main
+  specs:
+    view_component (3.11.0)
+      activesupport (>= 5.2.0, < 8.0)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -126,6 +136,7 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
+    method_source (1.0.0)
     mini_mime (1.1.5)
     minitest (5.22.3)
     msgpack (1.7.2)
@@ -271,6 +282,7 @@ DEPENDENCIES
   stimulus-rails
   turbo-rails
   tzinfo-data
+  view_component!
   web-console
 
 RUBY VERSION
